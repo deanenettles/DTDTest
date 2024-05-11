@@ -1,0 +1,81 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: logos_stacked2017.ai
+Color Mode: CMYK color
+Color Profile: U.S. Web Coated (SWOP) v2
+Ruler Units: inches
+Artboard Dimensions: 6.25 in x 3.2444 in
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+PANTONE 290 CVU (CMYK)
+PANTONE 314 CVU (CMYK)
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Univers 49 Light Ultra Condensed (Type 1)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Volumes/G-DRIVE with Thunderbolt/Clients/DFJ/DFJ DanceDusk2017/sponsors2017/belltowncommcouncil.ai
+Type: PDF
+
+/Volumes/G-DRIVE with Thunderbolt/Clients/DFJ/DFJ DanceDusk2017/sponsors2017/Freeway Park Logos-01.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1350K, 575 by 481 pixels
+Dimensions: 77.336 by 64.694 points 
+Resolution: 535.324 by 535.324 pixels per inch
+
+
+/Volumes/G-DRIVE with Thunderbolt/Clients/DFJ/DFJ DanceDusk2017/sponsors2017/logo_huge USE.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 339K, 640 by 181 pixels
+Dimensions: 168.928 by 47.775 points 
+Resolution: 272.779 by 272.779 pixels per inch
+
+
+/Volumes/G-DRIVE with Thunderbolt/Client Laptop/DFJ/DFJ DanceDusk2015/logos 2015/VM_PrimaryUse_Color_Vertical.eps
+Type: EPS
+
+/Volumes/G-DRIVE with Thunderbolt/Client Laptop/DFJ/DFJ DanceDusk2012/DFJ DTD Logos 2012/HorizonHouseLogo.tif
+Type: CMYK
+Bits per Pixel: 32
+Channels: 4
+Size: 300K, 600 by 128 pixels
+Dimensions: 147.513 by 31.469 points 
+Resolution: 292.856 by 292.856 pixels per inch
+
+
+/Users/deanenettles/Desktop/DFJ_CSS_center H1/images/dancedusk/2016/logos_stacked.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 474K, 450 by 216 pixels
+Dimensions: 450 by 216 points 
+Resolution: 72 by 72 pixels per inch

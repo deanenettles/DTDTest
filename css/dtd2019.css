@@ -1,0 +1,430 @@
+* {margin:0; padding:0; box-sizing: border-box;}
+	html {font-size:62.5%; -webkit-text-size-adjust: 100%; }
+	body {font-size:1.6rem; font-family:'Open Sans', arial, sans-serif; background-color:#0f150e; color:white; }
+	main {
+		width:100%;
+		margin:0 auto;
+		display:block;
+	}
+	.dfj {background-color:#3f7da6; padding:1.2rem .6rem; text-align:center; font-weight:bold;}
+	.dfj a:link {color:white;}
+	.dfj a:visited {color:white;}
+	.dfj a:hover, .dfj a:active {color:white; text-decoration:underline;}
+	header {
+	background-color: #190f4f; /* Old browsers */
+	background-image: url(../images/dancedusk/2019/bkgd2019.jpg);/*background: -moz-linear-gradient(top, #190f4f 0%, #fbc405 82%); /* FF3.6-15 */
+	background-size: cover;/*background: -webkit-linear-gradient(top, #190f4f 0%,#fbc405 82%); /* Chrome10-25,Safari5.1-6 */
+	background-repeat: no-repeat;/*background: linear-gradient(to bottom, #190f4f 0%,#fbc405 82%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: center top;/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#190f4f', endColorstr='#fbc405',GradientType=0 ); /* IE6-9 */
+ }
+.header-box {
+		width:100%;
+		height:30vh;
+		background-image:url(../images/dancedusk/2019/trees2019wideshort.png), url(), url(../images/dancedusk/dtdlogo.svg), url(../images/dancedusk/2017/buildings2017.png), url(../images/dancedusk/shoes.png), url(../images/dancedusk/stars.png);
+		background-position:center bottom, center bottom, center top, 50% 0px, right top, center top;
+		background-repeat:no-repeat;
+		background-size: 1000px, contain, 100rem, 100%, 300px, cover;
+}
+.transboxtype {position:absolute; margin:1.2rem 0; padding:1rem 1rem 1rem 4rem; margin-top:20rem;}
+.transboxtype a:link {color:#8EC7D0; text-decoration:none;}
+.transboxtype a:hover {color:white;}
+
+
+@media screen and (min-width:1600px) {
+	.header-box {background-size: 800px, contain, 900px, 100%, 300px, 1600px;
+	height:40rem;}
+}		
+
+@media screen and (max-width:1300px) {
+	.transboxtype {display:none;}
+	.header-box {height:30rem;
+			background-size: 1000px, contain, 900px, 100%, 300px, 1300px;
+
+		}
+}
+@media screen and (max-width:1000px) {
+	.header-box {
+			background-size: 800px, contain, contain, 100%, 300px, 1000px;
+			background-position: center bottom, center bottom, center top, 50% 20px, right top, center top;
+		}
+}
+@media screen and (max-width:900px) {
+	.header-box {
+		height:20vh;
+background-size: 100%, contain, contain, 100%, 250px, 900px;}
+
+}
+@media screen and (max-width:600px) {
+	.header-box {
+		height:15vh;
+background-size: 600px, contain, contain, 100%, 0vw, 600px;}
+
+}
+
+@media screen and (max-width:400px) {
+	.header-box {
+			background-position:center bottom, center bottom, center top, 50% 20px, top right, center top;
+			background-size: 100%, 400px, contain, 100%, 0vw, 800px;
+				height:10vh;
+		}
+}
+
+@media screen and (max-width:250px) {
+		.header-box {background-position:center bottom, center bottom, center top, 50% 20px, top right, center top;
+				background-size: 100%, 800px, contain, 100%, 0vw, 800px;
+		}
+}
+
+.tenyears {
+	background-color:#3f7da6;
+	box-shadow:0 1rem 1rem rgba(0, 0, 0, 0.5);
+	rotation: 6deg;
+	position:absolute;
+	top:40rem;
+	right:10%;
+	z-index:1000;
+	-moz-border-radius: .8em;
+	-webkit-border-radius: .8em;
+	border-radius:.8em;
+}
+.tenyears img {width:23rem;}
+
+@media screen and (max-width:1700px) {
+	.tenyears {top:37rem; right:2.5%;}
+	.tenyears img {width:23rem;}
+}
+@media screen and (max-width:1300px) {
+	.tenyears {
+		width:18%;
+		top:37rem;
+		right:0;
+		-moz-border-radius-topright: 0;
+		-webkit-border-top-right-radius: 0;
+		border-top-right-radius:0;
+		-moz-border-radius-bottomright: 0;
+		-webkit-border-bottom-right-radius: 0;
+		border-bottom-right-radius:0;
+	}
+	.tenyears img {width:100%;}
+}
+
+
+@media screen and (max-width:1000px) {
+	.tenyears {
+		top:30rem;
+		width:25vw;
+
+		/*width:26%;*/
+	}
+}
+@media screen and (max-width:550px) {
+	.tenyears {
+		top:25rem;
+		width:30vw;
+		/*width:35%;*/
+	}
+}
+
+
+#content {
+	max-width:80rem;
+	padding:2rem 0 4rem 0 ;
+	margin:0 auto;
+}
+#content1, #content2 {float:left; width:50%; padding-right:5%; padding-bottom:2rem;}
+#content1 {padding-left:5%;}
+#contenthead {padding-left:5%; padding-right:5%; text-align:center;}
+
+.onecol img {width:100%;}
+
+.support {border:1px solid gold; margin:2rem 5%; padding:0 4% 2rem 4%; width:90%; clear:both;}
+
+@media screen and (max-width:650px) {
+	#content1, #content2 {width:100%;}
+	#content2 {padding-left:5%;}
+}
+
+
+/* -------------------
+   TYPOGRAPHY
+---------------------- */
+
+p, h1, h2, h3, h4, ul, ol, li {margin:0 0 1rem 0; padding:0; line-height:1.4; text-indent:0;}
+
+h1, h2, .date {
+	font-family:"Open Sans Condensed", arial, sans serif;
+	font-size: 2.6rem;
+	color: #8EC7D0;
+	margin-top:2rem;
+	margin-bottom:.5rem;
+}
+
+h1 {
+	font-size: 3.2rem;
+	line-height:1.2;
+	padding-left:5%;
+	}
+
+#contenthead h1, #contenthead p {
+	padding:0 2rem;
+	}
+
+h3 {
+	font-size:1.3rem;
+	color: #dafbfe;
+}
+.map h3 {
+	color: #8EC7D0;
+	font-size:1.6rem;
+	margin-top:2rem;
+}
+
+
+h4 {
+	font-size:1.6rem;
+	color:white;
+	}
+
+p, ul, li {
+	font-size: 1.5rem;
+	color: #FFFFFF;
+	letter-spacing:.05rem;
+	line-height:1.6;
+}
+
+#contenthead p {font-size:1.7rem;}
+
+
+.date {
+	margin-bottom:0;
+	font-weight:bold;
+	clear:both;
+	}
+
+.caption {
+	color: #FFF;
+	font-size: 1.3rem !important;
+	padding:0;
+	margin: .3rem;
+	font-style:italic;
+}
+
+.onecol {margin-bottom:2rem;}
+.onecol h2, .onecol h3, .onecol h4, .onecol p, .onecol ul {padding-left:5%; padding-right:5%;}
+.onecol .caption {padding:0;}
+hr { margin-bottom:1rem;}
+
+blockquote {padding-left:4rem; padding-right:4rem;}
+blockquote ol, blockquote ul {padding-left:6rem; padding-right:6rem;}
+
+
+@media screen and (max-width:600px) {
+	h1 {font-size:2.8rem;}
+	h2 {font-size:2rem;}
+	#contenthead p {font-size:1.6rem; line-height:1.3; margin:1.4rem 0;}
+	p, ul, li {font-size:1.4rem;}
+	.caption {font-size: 1.1rem !important;}
+}
+
+
+/* -------------------
+   NAV
+---------------------- */
+.dfj {position:fixed; top:0; width:100%;}
+nav {padding-top:50px;}
+
+a:link {color:#fbc405; text-decoration:none;}
+a:visited {color:#fbc405;}
+a:hover, a:active {color:#ffde03; text-decoration:underline;}
+
+	/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+ul.topnav li:first-child {margin-left:2.3rem;}
+
+/* Style the links inside the list items */
+ul.topnav li a:link, ul.topnav li a:visited {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    border-top:6px solid #333;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #111; border-top:6px solid #c59c1e;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+/* -------------------
+   TEXT DECORATION
+---------------------- */
+
+.pink {
+	font-weight:bold;
+	color:#fab7b7;
+}
+.gold {
+	font-weight:bold;
+	color: #fbc405;
+	padding-right:.4rem;
+}
+.turq {color:#8EC7D0;}
+
+.linkyellow {color:#fbc405}
+
+.white {color:#fff;}
+
+.red {font-weight:bold; color:#ff0000;}
+
+.strikethrough {text-decoration:line-through}
+
+/* -------------------
+   FLOAT
+---------------------- */
+
+.floatrightdrop {
+	float: right;
+	padding-top:0rem;
+	margin-left:2rem;
+}
+
+.floatleftdrop {
+	float: left;
+	padding-top:0rem;
+	margin-right:2em;
+}
+
+/* -------------------
+   IMAGES
+---------------------- */
+
+.imagex400 {width:400px; margin-left:2rem; margin-top:.5rem;}
+.imagex300 {width:300px; margin-left:2rem; margin-top:.5rem;}
+.imagex250 {width:250px; margin-left:2rem; margin-top:.5rem;}
+.left {margin-right:2rem;}
+
+@media screen and (max-width:550px) {
+	.imagex400, .imagex300, .imagex250 {width:90%; margin:0; margin:.5rem auto 0 auto; }
+	.floatrightdrop, .floatleftdrop {float:none;}
+	.left {margin-right:auto;}
+}
+
+/* -------------------
+   LOGOS
+---------------------- */
+
+#logoslarge, #logossmall {
+	width:90%;
+	clear:both;
+	background-color:white;
+	margin:0 5%;
+}
+#logoslarge {display:block;}
+#logossmall {display:none;}
+
+@media screen and (max-width:600px) {
+	#logoslarge {display:none;}
+	#logossmall {display:block;}
+}
+
+.organize {text-align:center; margin:0; padding:0 0 2rem 0;}
+.organize a {position:relative; top:2rem;}
+.show {display:none;}
+
+@media screen and (max-width:350px) {
+	.organize {text-align:center; margin:2rem 0 0 0; padding:0 0 0 0;}
+	.organize a {top:0; position:static; clear:both;}
+	.show {display:block;}
+}
+
+/* -------------------
+   SHOW
+---------------------- */
+
+.show {display:none;}
+@media screen and (max-width:636px) {
+		nav {padding-top:50px;}
+
+}
+
+@media screen and (max-width:627px) {
+		nav {padding-top:70px;}
+
+}
+@media screen and (max-width:327px) {
+
+	nav {padding-top:60px;}
+	.show {display:block;}
+	.hide {display:none;}
+	}
+
+/* -------------------
+   CLEARFIX (.CF)
+---------------------- */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

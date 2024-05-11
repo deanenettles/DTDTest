@@ -1,0 +1,67 @@
+/* ROUNDED CORNERS */
+
+.c, #textblockleft .waltzballbox, .testimonials, .barheadinline, .barheadtop, .dtdbar,  #blocksright p{
+-moz-border-radius: .8em;
+-webkit-border-radius: .8em;
+border-radius:.8em;
+}
+
+.lc {
+-moz-border-radius-topleft: .8em;
+-webkit-border-top-left-radius: .8em;
+border-top-left-radius:.8em;
+-moz-border-radius-bottomleft: .8em;
+-webkit-border-bottom-left-radius: .8em;
+border-bottom-left-radius:.8em;
+}
+
+.rc {
+-moz-border-radius-topright: .8em;
+-webkit-border-top-right-radius: .8em;
+border-top-right-radius:.8em;
+-moz-border-radius-bottomright: .8em;
+-webkit-border-bottom-right-radius: .8em;
+border-bottom-right-radius:.8em;
+}
+
+.tc {
+-moz-border-radius-topleft: .8em;
+-webkit-border-top-left-radius: .8em;
+border-top-left-radius:.8em;
+-moz-border-radius-topright: .8em;
+-webkit-border-top-right-radius: .8em;
+border-top-right-radius:.8em;
+}
+
+.bc  {
+-moz-border-radius-bottomleft: .8em;
+-webkit-border-bottom-left-radius: .8em;
+border-bottom-left-radius:.8em;
+-moz-border-radius-bottomright: .8em;
+-webkit-border-bottom-right-radius: .8em;
+border-bottom-right-radius:.8em;
+}
+
+.tlc {
+-moz-border-radius-topleft: .8em;
+-webkit-border-top-left-radius: .8em;
+border-top-left-radius:.8em;
+}
+
+.trc {
+-moz-border-radius-topright: .8em;
+-webkit-border-top-right-radius: .8em;
+border-top-right-radius:.8em;
+}
+
+.blc {
+-moz-border-radius-bottomleft: .8em;
+-webkit-border-bottom-left-radius: .8em;
+border-bottom-left-radius:.8em;
+}
+
+.brc {
+-moz-border-radius-bottomright: .8em;
+-webkit-border-bottom-right-radius: .8em;
+border-bottom-right-radius:.8em;
+}

@@ -1,0 +1,98 @@
+/* *********************
+background color #000033
+secondary background color #1e183e
+************************/
+
+body {
+	width:800px;
+	margin:0 auto;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	background:#fff;
+	min-width:600px;    	/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:90%;
+	background-color: #000033;
+	border-collapse:collapse;
+}
+/*img {
+	margin:0px 0 5px;
+}*/
+
+header img {
+	margin:0;
+	-moz-border-radius: 1em;
+-webkit-border-radius: 1em;
+border-radius: 1em;
+}
+
+/* Header styles */
+#header {
+	clear:both;
+	float:left;
+	width:100%;	border-top-right-radius:12px;
+	border-top-left-radius:12px;
+}
+
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+	
+	
+border-bottom-right-radius:12px;
+
+	border-bottom-left-radius:12px;
+
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	overflow:hidden;
+}
+/* 2 Column (left menu) settings */
+.leftmenu {
+	background:#1e183e;		/* right column background colour */
+}
+.leftmenu .colleft {
+	right:68%;			/* right column width */
+	background:#1e183e;	/* left column background colour */
+}
+.leftmenu .col1 {
+	width:67%;			/* right column content width */
+	left:102%;			/* 100% plus left column left padding */
+}
+.leftmenu .col2 {
+	width:33%;			/* left column content width (column width minus left and right padding) */
+	left:1%;			/* (right column left and right padding) plus (left column left padding) */
+}
+
+article {
+	padding-left:104px;
+}
+/* Footer styles */
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	border-top:1px solid #000;
+	margin-bottom:3em;
+}
+#footer p {
+	padding:10px;
+	margin:0;
+}

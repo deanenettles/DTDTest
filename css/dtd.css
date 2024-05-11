@@ -1,0 +1,175 @@
+html {font-size:62.5%; font-family:arial, sans serif; background-color: #000033;}
+
+*, *:before, *:after {
+	box-sizing:border-box;
+}
+
+div {margin:0; padding:0;}
+
+a:link {
+	color: #969ccc;
+	text-decoration:none;
+	font-weight:bold;
+	font-style:italic;
+}
+
+a:visited {
+	color:#999;
+	text-decoration:none;
+	font-weight:bold;
+	font-style:italic;
+}
+
+a:link:hover, a:visited:hover {
+	color: #c0500d;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: normal;
+}
+a:link:active, a:visited:active {
+	color: #c0500d;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+#container {width:800px; width:80em; margin:0 auto; }
+#maincontent {width:800px; width:80em; background-color:#00341e;}
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+p, h1, h2, h3, h4, ul, li {margin:0 0 1em 0; padding:0; line-height:1.4; text-indent:0;}
+
+h1 {
+	font-size: 18px;
+	color: #fff;
+	}
+h2, .date {
+	font-size: 14px;
+	color: #ffde03;
+	margin-top:18px;
+}
+.date {margin-bottom:0; font-weight:bold;}
+h3 {
+	font-size:13px;
+	color: #dafbfe;
+}
+
+p, ul, li {
+	font-size: 13px;
+	color: #FFFFFF;
+}
+
+p, ul, li {
+	font-size: 13px;
+	color: #FFFFFF;
+}
+
+ul, li {
+	list-style: disc;
+}
+
+.colright {
+	float:right;
+	clear:none;
+	width:52.4em;
+	padding-bottom:2em;
+	}
+	
+nav {
+	width:52.7em;
+	float:right; 
+	clear:none; 
+	margin-bottom:1rem; 
+	height:2.9em;
+	}
+
+.dtdbar {
+	font-size: 1.4em;
+	line-height:2;
+	color: #FFF;
+	font-style: italic;
+	text-align:center;
+	font-weight:bold;
+	width:790px;
+	margin:10px auto;
+	height:20px;
+	padding-top:2px;
+	padding-bottom:0px;
+	background-color:#CC9900;
+	clear:both;
+}
+
+.dtdbar, .maincontent {
+-moz-border-radius: 1em;
+-webkit-border-radius: 1em;
+border-radius:1em;
+}
+
+.dtdbar p {text-align:center; padding:0 0 12px 0; margin:0;}
+
+.transbox {float:left; width:260px; height:13em; background-color:rgba(0,0,0,0.7);}
+
+.transboxtype {position:relative; top:-8.2em; left:0; width:260px; font-size:1.4em; color:#FFF;}
+
+.transboxtype ul, .transboxtype p {margin:.5em 1em 0 1em; line-height:1.2;}
+
+.transboxtype ul li {padding-bottom:.5em; margin:0; list-style: none;}
+
+
+.floatrightdrop {
+	float: right;
+	margin: 10px 0px 10px 20px;
+	clear: left;
+}
+
+.caption {
+	color: #FFF;
+	font-size: 11px;
+	margin-bottom: 3px;
+}
+
+/* COLORS */
+
+.pink {
+	font-weight:bold;
+	color:#fab7b7;
+}
+.gold {
+	font-weight:bold;
+	color: #dafbfe;
+	padding-right:4px;
+}
+
+.linkyellow {color:#ffde03}
+
+.white {color:#fff;}
+
+.red {font-weight:bold; color:#ff0000;}
+
+.strikethrough {text-decoration:line-through}

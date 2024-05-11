@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.oneColElsCtr #mainContent #cell1, .oneColElsCtr #mainContent #head2, .oneColElsCtr #mainContent #cell2, .oneColElsCtr #mainContent #head3, .oneColElsCtr #mainContent #cell3, .oneColElsCtr #mainContent #head4, .oneColElsCtr #mainContent #cell4, .oneColElsCtr #mainContent #head5, .oneColElsCtr #mainContent #cell5, .oneColElsCtr #mainContent #head6, .oneColElsCtr #mainContent #cell6, .oneColElsCtr #mainContent #special, .oneColElsCtr #mainContent #hilite, .oneColElsCtr #mainContent #hiliteExt {
+width: 6.8em;
+height:4.7em;
+padding:.5em .2em .5em .2em;
+margin:0 0 3px .2em;
+color:#000;
+font-size:.64em;
+vertical-align:middle;
+text-align:center;
+border-bottom: .15em solid #bbb;
+float:left;
+clear:none;
+
+}
+.oneColElsCtr #mainContent #cell1 {
+height:2.5em;
+color:#FFF;
+background-color:#68338f;
+font-weight:bold;
+}
+.oneColElsCtr #mainContent #head2{
+background-color:#cee6b5;
+}
+.oneColElsCtr #mainContent #cell2 {
+background-color:#e0f5cb;
+}
+.oneColElsCtr #mainContent #head3 {
+background-color:#bedbeb;
+height:3.5em;
+}
+.oneColElsCtr #mainContent #cell3 {
+background-color:#daeffb;
+}
+.oneColElsCtr #mainContent #head4 {
+background-color:#ebe7c5;
+height:3.5em;
+}
+.oneColElsCtr #mainContent #cell4 {
+background-color:#fbf8df;
+}
+.oneColElsCtr #mainContent #head5 {
+background-color:#b0e0c6;
+height:3.5em;
+}
+.oneColElsCtr #mainContent #cell5 {
+background-color:#c8f1db;
+}
+.oneColElsCtr #mainContent #head6 {
+background-color:#ffec8f;
+height:3.5em;
+}
+.oneColElsCtr #mainContent #cell6 {
+background-color:#faf3d2;
+}
+.oneColElsCtr #mainContent #special {
+background-color:#ddddfe;
+}
+.oneColElsCtr #mainContent #hilite {
+background-color:#fddebc;
+}
+.oneColElsCtr #mainContent #hiliteExt {
+height:5em;
+background-color:#fddebc;
+margin:0 0 0 .2em;
+border-bottom: 0px solid #bbb;
+}
+
+.floatLeftBothMarg {
+clear:both;
+}

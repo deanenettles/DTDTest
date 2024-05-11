@@ -1,0 +1,333 @@
+html {font-size:62.5%; font-family: 'Open Sans', arial, sans-serif;}
+
+*, *:before, *:after {
+	box-sizing:border-box;
+}
+
+/* -------------------
+   STRUCTURE
+---------------------- */
+
+body {background-color:#102108;}
+main {float:none; width:80rem; margin:0 auto; margin-bottom:1rem;}
+div {float:left;}
+header {width:80rem; height:33.4rem; background:url("../images/dancedusk/2015/DanceDusk800x600_2015_01.jpg") no-repeat top right;
+background-size:cover;}
+
+/* DTD BAR */
+
+.dtdbar {
+	color: #FFF;
+	font-style: italic;
+	text-align:center;
+	font-weight:bold;
+	width:80rem;
+	margin:1rem auto;
+	background-color:#CC9900;
+	float:none;
+	clear:both;
+}
+
+.dtdbar, .maincontent {
+-moz-border-radius: 1rem;
+-webkit-border-radius: 1rem;
+border-radius:1rem;
+}
+
+.dtdbar p, #dtdbar a {text-align:center; padding:.5rem 0; margin:0; 	font-size: 1.5rem; line-height:1; alignment-baseline:baseline;}
+
+.dtdbar:hover {background-color:#e5b422}
+
+/* TRANSPARENT BOX */
+
+.transboxtype {position:relative; top:-7.5rem; left:0; width:26rem; font-size:1.4rem; color:#FFF;}
+
+.transboxtype ul, .transboxtype p {margin:.5rem 1rem 0 1rem; line-height:1.2;}
+
+.transboxtype ul li {padding-bottom:.9rem; margin:0; list-style: none;}
+
+/* COLUMNS */
+#logocol {width:27.2rem; height:85rem; background:url("../images/dancedusk/2015/DanceDusk800x600_2015_02.jpg") no-repeat; background-size:cover;}
+.onecol, #contentcol {width:52.8rem; height:82rem; background:url("../images/dancedusk/2015/DanceDusk800x600_2015_08.jpg") no-repeat; background-size:cover;}
+.onecol {height:auto; padding-bottom:30px; }
+
+#content1, #content2 {float:left; width:25.5rem; padding-top:2.5rem; padding-left:2rem;}
+#content2 {float:right; padding-top:.3rem; padding-right:3rem; padding-left:1rem;}
+
+.contributions {
+	float:left;
+	clear:left;
+	width:100%;
+	padding:0 4rem 0 2rem;
+	margin-top:1rem;
+	border-top:#fff .1rem solid
+}
+
+.onecol div {margin:0; padding:0; margin-bottom:.5rem;}
+.onecol p, .onecol h2, .onecol h3, .onecol ul {margin-left:0;}
+.map {}
+
+
+/* -------------------
+   TYPOGRAPHY
+---------------------- */
+
+p, h1, h2, h3, h4, ul, li {margin:0 0 1rem 0; padding:0; line-height:1.4; text-indent:0;}
+
+h1 {
+	font-size: 3rem;
+	color: #fff;
+	}
+
+h2, .date {
+	font-size: 2rem;
+	color: #ffde03;
+	margin-top:2rem;
+}
+
+h2 {font-family:'open sans condensed', arial, sans-serif; font-size:2rem; margin-bottom:.5rem;}
+
+h3 {
+	font-size:1.3rem;
+	color: #dafbfe;
+}
+.map h3 {color: #ffde03; font-size:1.6rem; margin-top:2rem;}
+
+
+h4 {
+	font-size:1.6rem; 
+	color:white;
+	}
+
+p, ul, li {
+	font-size: 1.3rem;
+	color: #FFFFFF;
+}
+
+p, ul, li {
+	font-size: 1.3rem;
+	color: #FFFFFF;
+}
+
+ul, li {
+	list-style: disc outside;
+	margin-left: 5rem;
+	margin-right:2rem;
+}
+
+header p {position:relative; top:2rem; left:7rem; width:20rem; padding:1rem;  background-color:rgba(0,0,0,0.5); font-size:1.6rem;}
+
+.date {margin-bottom:0; font-weight:bold;}
+
+.caption {
+	color: #FFF;
+	font-size: 1.1rem;
+	padding:0;
+	margin: .3rem;
+	font-style:italic;
+}
+
+.onecol h2, .onecol h3, .onecol h4, .onecol p, .onecol ul {padding-left:2rem; padding-right:2rem;}
+
+.onecol h2 {font-family:'Open Sans', arial;}
+
+
+
+/* -------------------
+   LINKS
+---------------------- */
+
+a:link {
+	color: #ffde03;
+	text-decoration:none;
+	font-weight:bold;
+	font-style:italic;
+	border:none;
+}
+
+a:visited {
+	color:#feefbc;
+	font-style:italic;
+}
+
+a:link:hover, a:visited:hover {
+	font-style: normal;
+	text-decoration: underline;
+}
+a:link:active, a:visited:active {
+	text-decoration: underline;
+	font-style: normal;
+}
+
+.transboxtype a {color:#ffde03}
+
+a.out {padding-right:14px; background:url("../images/Icon_External_Link.png") no-repeat  right .7px padding-box;}
+
+#schedule{
+	height: 29px;
+	width: 103px;
+	background-image: url(../images/dancedusk/2015/DanceDusk800x600_2015_03.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#geninfo{
+	height: 29px;
+	width: 102px;
+	background-image: url(../images/dancedusk/2015/DanceDusk800x600_2015_04.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#july{
+	height: 29px;
+	width: 103px;
+	background-image: url(../images/dancedusk/2015/DanceDusk800x600_2015_05.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#aug{
+	height: 29px;
+	width: 104px;
+	background-image: url(../images/dancedusk/2015/DanceDusk800x600_2015_06.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}		
+#direct{
+	height: 29px;
+	width: 115px;
+	background-image: url(../images/dancedusk/2015/DanceDusk800x600_2015_07.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}		
+#schedule:hover {background-image: url(../images/dancedusk/2015/DanceDusk800x600_2015_over_03.jpg);}
+#geninfo:hover {background-image: url(../images/dancedusk/2015/DanceDusk800x600_2015_over_04.jpg);}
+#july:hover {background-image: url(../images/dancedusk/2015/DanceDusk800x600_2015_over_05.jpg);}
+#aug:hover {background-image: url(../images/dancedusk/2015/DanceDusk800x600_2015_over_06.jpg);}
+#direct:hover {background-image: url(../images/dancedusk/2015/DanceDusk800x600_2015_over_07.jpg);}
+
+
+/* -------------------
+   TEXT DECORATION
+---------------------- */
+
+.pink {
+	font-weight:bold;
+	color:#fab7b7;
+}
+.gold {
+	font-weight:bold;
+	color: #ffde03;
+	padding-right:.4rem;
+}
+
+.linkyellow {color:#ffde03}
+
+.white {color:#fff;}
+
+.red {font-weight:bold; color:#ff0000;}
+
+.strikethrough {text-decoration:line-through}
+
+/* -------------------
+   FLOAT
+---------------------- */
+
+.floatrightdrop {
+	float: right;
+	padding-top:1rem;
+}
+
+.floatleftdrop {
+	float: left;
+	padding-top:1rem;
+}
+
+.floatrightdrop img, .float-leftdrop img {width:100%;}
+
+
+/* -------------------
+   CLEARFIX (.CF)
+---------------------- */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/* -------------------
+   LOGO MAP
+---------------------- */
+
+
+#seattlerec {
+	position: relative;
+	top:-5rem;
+	left:5rem;
+	width: 9.5rem;
+	height: 7rem;
+}
+#freewaypark {
+	position: relative;
+	top:-5rem;
+	left:5rem;
+	width: 9.5rem;
+	height: 7rem;
+}
+#virginiamason {
+	position: relative;
+	top:3.5rem;
+	left:15.5rem;
+	width: 9.5rem;
+	height: 6.5rem;
+}
+#bosa {
+	position: relative;
+	top:24.5rem;
+	left:-7rem;
+	width: 6.5rem;
+	height: 8.5rem;
+}
+
+#insignia {
+	position: relative;
+	top:16.5rem;
+	left:10rem;
+	width: 13rem;
+	height: 7.5rem;
+}
+#danceforjoy {
+	position: relative;
+	top:17.5rem;
+	left:2rem;
+	width: 25rem;
+	height: 6.5rem;
+}
+
+/* TEST */
+ {outline:.1rem solid red;}

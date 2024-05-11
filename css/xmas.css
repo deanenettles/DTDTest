@@ -1,0 +1,104 @@
+/* STRUCTURE */
+	html {
+	font-size: 62.5%;
+	font-family: georgia, times, times roman, sans-serif;
+	color: white;
+	background-repeat: repeat;
+	background-position: center center;
+	background-image: url("../images/christmasball/christmas-desktops-free-hd_sparkle.gif");
+	background-size: 60% auto;
+	}
+	body {margin:0; padding:0;}
+	main {max-width:700px; padding:2rem 3rem; margin:2rem auto; background-color:#0d2e06; border:4px double #e2b061; box-shadow: 0 6px 36px 0px black}
+	header {text-align:center;}
+	header section {margin:20px 0; margin:40px 0;font-style:italic;}
+	header section div {width:47%; float:left;}
+	#classes {background-color:#e8c285; padding:1rem 2rem; border-radius:2rem; margin:40px 0;}
+	.return {text-align:center; background-color:#e2b061; padding:.4rem 0 .3rem 0;}
+
+
+/* IMAGES */
+	img {border-radius:1rem;}
+	header img {display:block; width:90%; margin:0 auto;}
+	.bodyimage {float:right; width:60%; margin-left:2rem; margin-bottom:2rem; border-radius:1rem;}
+	header section img {display:block; width:50%; margin-left:2%; float:right;}
+
+
+/* TYPOGRAPHY */
+	h1, h2, h3, h4 {font-family: 'Great Vibes', cursive; font-weight:normal; line-height:1.2; color:white;}
+	h1 {font-size:6.5rem;}
+	h2 {font-size:3.8rem;}
+	h3, h4 {font-size:3.5rem; margin-bottom:0; color:#e2b061; margin-top:1.5rem;}
+	h5 {font-size:1.8rem; font-weight:normal;}
+	header h3 {font-size:5.5rem;}
+	p, li, blockquote {font-size:1.8rem; margin-top:0; margin-bottom:.9rem; line-height:1.4;}
+	blockquote {margin-left:2rem; margin-right:2rem; margin-bottom:2rem; font-style:italic;}
+	#classes h1, #classes h2, #classes h3, #classes h4, #classes h5 {color:maroon;}
+	#classes h5 {margin-top:.4rem; margin-bottom:1rem; line-height:1.4}
+	#classes p {color:#0d2e06; font-size:1.8rem;}
+	.location {font-size:2rem;}
+	.credit {color:white; font-size:1.2rem; text-align:right; padding-right:3rem; padding-top:2rem;}
+
+
+/* NAVIGATION */
+	a:link, a:visited {color:maroon; font-style:italic;}
+	a:hover, a:focus, a:active {color:white;}
+
+	a.classdesc:link, a.classdesc:visited {
+		font-size:1.6rem; color:black; text-decoration:none;padding:.5rem 1rem; margin:2rem 0 2rem 0; display:inline-block; font-family:'Alegreya+Sans', Verdana, Arial, helvetica, sans-serif; font-weight:700; background-color:#d89935; border-radius:.5rem; transition:ease .2s;
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0b16b+0,b57f13+100 */
+			background: #e0b16b; /* Old browsers */
+			background: -moz-linear-gradient(top,  #e0b16b 0%, #b57f13 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e0b16b), color-stop(100%,#b57f13)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  #e0b16b 0%,#b57f13 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  #e0b16b 0%,#b57f13 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  #e0b16b 0%,#b57f13 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  #e0b16b 0%,#b57f13 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0b16b', endColorstr='#b57f13',GradientType=0 ); /* IE6-9 */
+}
+	a.classdesc:hover, a.classdesc:focus, a.classdesc:active {color:white; background-color:#e2b061}
+
+
+/* COLOR */
+	.gold {color:#e2b061;}
+	.red {color:red;}
+
+
+/* --------------------------
+	CLEARFIX
+------------------------------ */
+
+	.cf:before,
+	.cf:after {
+		 content: "";
+		 display: table;
+	}
+	.cf:after {
+		 clear: both;
+	}
+	.cf {
+		 zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+	}
+
+/* MEDIA QUERIES */
+
+	@media screen and (max-width:600px) {
+		header h1, header h3 {font-size:4rem;}
+		header section img {display:none;}
+		header section div {width:100%; float:none;}
+	}
+
+	@media screen and (max-width:450px) {
+		p {margin-bottom:.6rem; line-height:1.6}
+		html {font-size:55%;}
+		.bodyimage {float:none; width:100%; margin-left:0;}
+		ul {padding-left:1.5rem; margin-bottom:2rem;}
+		}
+
+	@media screen and (max-height:375px) {
+					html {font-size:55%;}
+
+	}
+
+
+
